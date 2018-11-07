@@ -1,8 +1,12 @@
 //实例化vue对象
 new Vue({
-    el:"#vue-app",
+    el:"#app-4",
     data:{
-        name: 'jusmine'
+        todos:[
+            {text:'潇潇'},
+            {text:'学习 Vue'},
+            {text:'整个项目'}
+        ]
     }
 });
 

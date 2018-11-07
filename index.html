@@ -10,8 +10,13 @@
 </head>
 <body>
     <!-- vue-app是根容器 -->
-    <div id="vue-app"></div>
-    <h1>{{ name }}</h1>
+    <div id="app-4">
+        <ol>
+            <li v-for="todo in todos">
+                {{todo.text}}
+            </li>
+        </ol>
+    </div>
     <script src="./app.js"></script>
 </body>
 </html>
